@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form validation</title>
+</head>
+
+<body>
+
+    <div id="main">
+        
+        <div id="form">
+            <h1>Form Validation</h1>
+            <form action="#" onsubmit="return validation()">
+                <label for="#">User Name</label>
+                <input type="text" placeholder="Enter Your Name" id="username" autocomplete="off">
+                <span id="user"></span>
+                <label for="#">Email</label>
+                <input type="text" placeholder="Enter Your Email" id="email" autocomplete="off">
+                <span id="mail"></span>
+
+                <label for="#">Password</label>
+                <input type="text" placeholder="Enter Your Password" id="password" autocomplete="off">
+                <span id="pass"></span>
+
+                <label for="#">Confirm Password</label>
+                <input type="text" placeholder="Enter Your Confirm password" id="conpass" autocomplete="off">
+                <span id="confirmpassword"></span>
+
+                <label for="#">Mobile Number</label>
+                <input type="text" placeholder="Enter Your mobile number" id="mobnumber" autocomplete="off">
+                <span id="mobile"></span>
+
+                <input id="submit-button" type="submit" value="submit" name="submit">
+            </form>
+
+            
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
